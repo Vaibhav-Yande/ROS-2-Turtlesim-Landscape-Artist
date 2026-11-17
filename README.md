@@ -4,6 +4,10 @@ A Python-based ROS 2 project that uses **two turtles** in the `turtlesim` simula
 
 The drawing features a sun with rays, fluffy clouds, a red house with a door and window, and four trees framing the scene. To ensure perfectly straight walls and clean shapes without PID-drift, this project uses a combination of `TeleportAbsolute` (for straight lines) and `Twist` (for curved sun/cloud arcs).
 
+## 🎥 Demo
+
+[![Watch Demo on LinkedIn](https://img.shields.io/badge/▶_Watch_Demo-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://lnkd.in/p/dTgTM7vj)
+
 ## ✨ Features
 - **Multi-Turtle Support:** Dynamically spawns a second turtle to divide the drawing workload.
 - **Precision Drawing:** Uses `TeleportAbsolute` to draw 100% straight lines, eliminating slanted walls.
